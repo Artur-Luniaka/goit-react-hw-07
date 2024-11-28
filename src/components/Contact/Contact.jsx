@@ -3,7 +3,7 @@ import { HiOutlineUserCircle } from "react-icons/hi";
 import { TbPhone } from "react-icons/tb";
 import { RiDeleteBin2Fill } from "react-icons/ri";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 const Contact = ({ name, number, id }) => {
   const dispatch = useDispatch();
